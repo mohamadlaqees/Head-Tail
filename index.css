@@ -50,19 +50,19 @@
     margin: 0 auto;
     width: 270px;
     height: 400px;
-    background-image: url(./images/head.png); 
+    background-image: url(./head.png); 
     transition: .2s;
 }
 @keyframes imge{
     0%{
-    background-image: url(./images/head.png);
+    background-image: url(./head.png);
     }
     50%{
-        background-image: url(./images/tail.png);
+        background-image: url(./tail.png);
 
     }
     100%{
-        background-image: url(./images/head.png);
+        background-image: url(./head.png);
 
     }
 
