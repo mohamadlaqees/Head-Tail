@@ -42,19 +42,19 @@ head.onclick=function(){
     img.style.cssText=' animation-name: imge; animation-duration: 0.5s ; animation-iteration-count: 4;'
     setTimeout(() => {
         img.style.cssText=`animation-name: imgee; `;
-        let path=`url(./${imge[Math.floor(Math.random() * imge.length)]})`;
+        let path=`url(${imge[Math.floor(Math.random() * imge.length)]})`;
         img.style.backgroundImage=path;
-        if(path==='url(./head.png)' && cchoise.innerHTML==='head' ){
+        if(path==='url(head.png)' && cchoise.innerHTML==='head' ){
             pnum++;
             pnume.innerHTML=pnum;
             cnum++;
             cnume.innerHTML=cnum;
         }
-        else if(path==='url(./head.png)' && cchoise.innerHTML!='head'){
+        else if(path==='url(head.png)' && cchoise.innerHTML!='head'){
             pnum++;
             pnume.innerHTML=pnum;
         }
-        else if(path==='url(./tail.png)' && cchoise.innerHTML==='tail'){
+        else if(path==='url(tail.png)' && cchoise.innerHTML==='tail'){
             cnum++;
             cnume.innerHTML=cnum;
         }
@@ -92,19 +92,19 @@ tail.onclick=function(){
     img.style.cssText=' animation-name: imge; animation-duration: 0.5s ; animation-iteration-count: 4;'
     setTimeout(() => {
         img.style.cssText=`animation-name: imgee;`;
-        let path=`url(./${imge[Math.floor(Math.random() * imge.length)]})`;
+        let path=`url(${imge[Math.floor(Math.random() * imge.length)]})`;
         img.style.backgroundImage=path;
-        if(path==='url(./tail.png)' && cchoise.innerHTML==='tail'){
+        if(path==='url(tail.png)' && cchoise.innerHTML==='tail'){
             pnum++;
             pnume.innerHTML=pnum;
             cnum++;
             cnume.innerHTML=cnum;
         }
-        else if(path==='url(./tail.png)' && cchoise.innerHTML!='tail'){
+        else if(path==='url(tail.png)' && cchoise.innerHTML!='tail'){
             pnum++;
             pnume.innerHTML=pnum;
         }
-        else if(path==='url(./head.png)' && cchoise.innerHTML==='head'){
+        else if(path==='url(head.png)' && cchoise.innerHTML==='head'){
             cnum++;
             cnume.innerHTML=cnum;
         }
